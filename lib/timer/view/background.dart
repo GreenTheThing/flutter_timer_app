@@ -9,12 +9,16 @@ class Background extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<TimerBloc, TimerState>(
       builder: (context, state) => Align(
+        // Ensures the resized widget stays at the bottom of the screen.
         alignment: Alignment.bottomCenter,
         child: AnimatedContainer(
+          // Sets the height from the percentage left in the timer.
           height: MediaQuery.of(context).size.height * state.level,
+          // Time it take to resize widget.
           duration: Duration(seconds: 1),
           child: WaveWidget(
             config: CustomConfig(
+              // Color gradients for each layer
               gradients: [
                 [
                   Color(0xFFC31717),
@@ -32,13 +36,17 @@ class Background extends StatelessWidget {
                   Color(0xAAff8d00),
                 ],
               ],
+              // Milliseconds for each layer's animation to complete.
               durations: [19440, 10800, 6000],
+              // Set to negative values (overflow) to be visible when the
+              // timer is complete
               heightPercentages: [-0.03, -0.01, -0.02],
               gradientBegin: Alignment.bottomCenter,
               gradientEnd: Alignment.topCenter,
             ),
             size: Size(double.infinity, double.infinity),
-            waveFrequency: 0.5,
+            // Width of the waves
+            waveFrequency: 0.4,
           ),
         ),
       ),
