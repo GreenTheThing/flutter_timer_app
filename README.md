@@ -1,16 +1,21 @@
-# bloc_timer
+# TimerApp
 
-A new Flutter application.
+A Flutter timer application with animated background and a spinner dialog for setting the duration.
 
-## Getting Started
+## Info
 
-This project is a starting point for a Flutter application.
+I created this app as a way to familiarize myself with the BLoc Architecture and Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+The starting point for the app was [this tutorial](https://bloclibrary.dev/#/fluttertimertutorial) on the official BLoC Library website (source code for the tutorial can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_timer). 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Contributions
+1. App level:
+* Addded a "set timer" pop-up dialog to change the timer duration. 
+* Created 2 differently stylized dialogs to match the design of the platform it is running on - iOS or Android.
+* Animated background that changes height from 100% to 0% based in the duration left on the timer.
+* UI changes and improvements.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Project level:
+* Reoragnize flies into a more scalable architecture (for proof of concept purposes).
+* Extract some widgets into separate files to improve code readability.
+* Reformating, clean-up and commenting the code to imporve readability.
