@@ -6,7 +6,7 @@ A Flutter timer application with animated background and a spinner dialog for se
 
 I created this app as a way to familiarize myself with the BLoc Architecture and Flutter.
 
-The starting point for the app was [this tutorial](https://bloclibrary.dev/#/fluttertimertutorial) on the official BLoC Library website (source code for the tutorial can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_timer). 
+The starting point for the app was [this tutorial](https://bloclibrary.dev/#/fluttertimertutorial) on the official BLoC Library website (source code for the tutorial can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_timer)). 
 
 ## Contributions
 1. App level:
