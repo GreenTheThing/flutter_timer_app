@@ -6,7 +6,7 @@ description: Practice app for BLoC library usage.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for the application.
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -19,10 +19,16 @@ dependencies:
   bloc: ^6.0.0
   flutter_bloc: ^6.0.0
 
-  # Other
+  # Equatable
   equatable: ^1.0.0
+
+  # Wave
   wave: ^0.0.8
+
+  # Meta
   meta: ^1.1.8
+
+  # Material pickers for Flutter
   flutter_material_pickers: ^1.8.1
 
   # Cupertino Icons font to your application.

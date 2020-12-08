@@ -9,6 +9,10 @@
 .history
 .svn/
 
+# keystore related
+key.jks
+key.properties
+
 # IntelliJ related
 *.iml
 *.ipr

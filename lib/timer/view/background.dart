@@ -23,17 +23,17 @@ class Background extends StatelessWidget {
                 [
                   Color(0xFFC31717),
                   Color(0xCCCD4C10),
-                  Color(0xAAfabf3d),
+                  Color(0xAAFABF3D),
                 ],
                 [
                   Color(0xFFC31717),
                   Color(0xCCCD4C10),
-                  Color(0xAAffb356),
+                  Color(0xAAFFB356),
                 ],
                 [
                   Color(0xFFC31717),
                   Color(0xCCff7637),
-                  Color(0xAAff8d00),
+                  Color(0xAAFF8D00),
                 ],
               ],
               // Milliseconds for each layer's animation to complete.
